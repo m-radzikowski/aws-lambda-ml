@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "serverless-ml"
+version = "0.1.0"
+description = ""
+authors = ["Maciej Radzikowski <maciej@radzikowski.com.pl>"]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+aws-cdk-lib = "2.47.0"
+constructs = "10.1.140"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
